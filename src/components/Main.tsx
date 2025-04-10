@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import NoteIcon from '@mui/icons-material/Note';
 import '../assets/styles/Main.scss';
-import me from "..assets/images/avatar.png"
+import me from "../assets/images/avatar.png"
 
 import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
 
@@ -19,7 +19,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src={me} alt="Avatar" />
+          <img src={me} alt="PhotoProfile" />
         </div>
         <div className="content">
           <div className="social_icons">
