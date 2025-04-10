@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portoWeb/static/css/main.552a9e8d.css",
+    "main.js": "/portoWeb/static/js/main.36096912.js",
+    "static/js/453.88662cb8.chunk.js": "/portoWeb/static/js/453.88662cb8.chunk.js",
+    "static/media/bg-light-anime.png": "/portoWeb/static/media/bg-light-anime.b1482f86856c5d751bf2.png",
+    "static/media/bg-dark-anime.png": "/portoWeb/static/media/bg-dark-anime.d66fe6120e7a9bec50f4.png",
+    "static/media/mock03.png": "/portoWeb/static/media/mock03.8290e6bdaced53980981.png",
+    "static/media/mock01.png": "/portoWeb/static/media/mock01.1c78a51a2b387209790c.png",
+    "static/media/gcp-engineer.png": "/portoWeb/static/media/gcp-engineer.e7c524600113fc4a6b66.png",
+    "static/media/be-gcp.png": "/portoWeb/static/media/be-gcp.99517d8d321f26c7af36.png",
+    "static/media/ai-basic.png": "/portoWeb/static/media/ai-basic.2510bb3a5ae154a648f8.png",
+    "static/media/web-basic.png": "/portoWeb/static/media/web-basic.1478e2ac177462b8dbaf.png",
+    "static/media/ml-gcp.png": "/portoWeb/static/media/ml-gcp.17dd111731770a0be365.png",
+    "static/media/programmingLogic101.png": "/portoWeb/static/media/programmingLogic101.bd014798d03fa0244168.png",
+    "static/media/git-basic.png": "/portoWeb/static/media/git-basic.e987226d8e254fdae0df.png",
+    "static/media/js-basic.png": "/portoWeb/static/media/js-basic.ff4a55b979229e7e4a48.png",
+    "static/media/rpl-basic.png": "/portoWeb/static/media/rpl-basic.f744b8bd5fcc4da5aa3a.png",
+    "static/media/mock04.png": "/portoWeb/static/media/mock04.3d4f3191a8034c245a18.png",
+    "static/media/mock02.png": "/portoWeb/static/media/mock02.f1b243787f65745190a1.png",
+    "index.html": "/portoWeb/index.html",
+    "main.552a9e8d.css.map": "/portoWeb/static/css/main.552a9e8d.css.map",
+    "main.36096912.js.map": "/portoWeb/static/js/main.36096912.js.map",
+    "453.88662cb8.chunk.js.map": "/portoWeb/static/js/453.88662cb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.552a9e8d.css",
+    "static/js/main.36096912.js"
+  ]
+}
