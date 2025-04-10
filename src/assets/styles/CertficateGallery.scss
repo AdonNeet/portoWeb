@@ -1,0 +1,78 @@
+.galleryContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 5% 10%;
+  }
+
+  .galleryText {
+    grid-column: 1 / -1; 
+    margin-bottom: -1rem;
+    margin-top: -0.5rem;
+  }
+  
+  
+  .certificateCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+  
+  .certificateImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 0.9rem;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .certificateCard:hover .caption {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
+  @media screen and (max-width: 1024px) {
+    .galleryContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .galleryContainer {
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .certificateCard {
+      margin-bottom: 30px;
+    }
+
+    .galleryText {
+      margin-top: 0rem;
+      margin-bottom: 1rem;
+    }
+  }
+  

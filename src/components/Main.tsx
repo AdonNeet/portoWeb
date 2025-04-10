@@ -1,0 +1,47 @@
+import React from "react";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import NoteIcon from '@mui/icons-material/Note';
+import '../assets/styles/Main.scss';
+
+import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
+
+const DiscordIcon: React.FC<SvgIconProps> = (props) => (
+  <SvgIcon {...props} viewBox="0 0 24 24">
+    <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z" />
+  </SvgIcon>
+);
+
+function Main() {
+
+  return (
+    <div className="container">
+      <div className="about-section">
+        <div className="image-wrapper">
+          {/* <img src="https://media.licdn.com/dms/image/v2/D4E03AQHUTkVnoRsPXw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708653862092?e=1749686400&v=beta&t=ZMweT3gKVBUaQKq20jk96DynWuoyQYILYTprppoKkuo" alt="Avatar" /> */}
+          <img src="https://file.notion.so/f/f/e5738ff4-c314-491c-befb-b7133ded934f/ea779364-c56b-440c-866f-6f463c9b9ccc/me.jpeg?table=block&id=1aa2ce97-1797-8034-ba4a-c83312b5a146&spaceId=e5738ff4-c314-491c-befb-b7133ded934f&expirationTimestamp=1744300800000&signature=VKSXy9oqLhYSQ5ubUuZhV7Or4IoUOSxl3l6ik8jKWcg&downloadName=me.jpeg" alt="Avatar" />
+        </div>
+        <div className="content">
+          <div className="social_icons">
+            <a href="https://github.com/AdonNeet" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/baradontaperdana/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://adonneet.notion.site/Hi-I-m-Bara-Donta-Perdana-1aa2ce97179780d397c9eb63d467fe6c"><NoteIcon/></a>
+            <a href="https://discordapp.com/users/828006383613378590"><DiscordIcon/></a>
+          </div>
+          <h1>Bara Donta Perdana</h1>
+          <p>Back-End Developer | Cloud Enthusiast </p> 
+          <p>Problem Solver</p>
+
+          <div className="mobile_social_icons">
+            <a href="https://github.com/AdonNeet" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/baradontaperdana/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://adonneet.notion.site/Hi-I-m-Bara-Donta-Perdana-1aa2ce97179780d397c9eb63d467fe6c"><NoteIcon/></a>
+            <a href="https://discordapp.com/users/828006383613378590"><DiscordIcon/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Main;
