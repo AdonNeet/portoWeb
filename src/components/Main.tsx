@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import NoteIcon from '@mui/icons-material/Note';
 import '../assets/styles/Main.scss';
+import me from "..assets/images/avatar.png"
 
 import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
 
@@ -18,8 +19,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          {/* <img src="https://media.licdn.com/dms/image/v2/D4E03AQHUTkVnoRsPXw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1708653862092?e=1749686400&v=beta&t=ZMweT3gKVBUaQKq20jk96DynWuoyQYILYTprppoKkuo" alt="Avatar" /> */}
-          <img src="https://file.notion.so/f/f/e5738ff4-c314-491c-befb-b7133ded934f/ea779364-c56b-440c-866f-6f463c9b9ccc/me.jpeg?table=block&id=1aa2ce97-1797-8034-ba4a-c83312b5a146&spaceId=e5738ff4-c314-491c-befb-b7133ded934f&expirationTimestamp=1744300800000&signature=VKSXy9oqLhYSQ5ubUuZhV7Or4IoUOSxl3l6ik8jKWcg&downloadName=me.jpeg" alt="Avatar" />
+          <img src={me} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
