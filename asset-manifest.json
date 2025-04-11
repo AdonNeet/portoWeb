@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portoWeb/static/css/main.552a9e8d.css",
-    "main.js": "/portoWeb/static/js/main.a7a2701f.js",
+    "main.js": "/portoWeb/static/js/main.a97c1322.js",
     "static/js/453.88662cb8.chunk.js": "/portoWeb/static/js/453.88662cb8.chunk.js",
     "static/media/bg-light-anime.png": "/portoWeb/static/media/bg-light-anime.b1482f86856c5d751bf2.png",
     "static/media/bg-dark-anime.png": "/portoWeb/static/media/bg-dark-anime.d66fe6120e7a9bec50f4.png",
     "static/media/avatar.png": "/portoWeb/static/media/avatar.681e78cd31f15863bd93.png",
+    "static/media/gcsb.png": "/portoWeb/static/media/gcsb.e24cc58548b2e3e9b92b.png",
     "static/media/mock03.png": "/portoWeb/static/media/mock03.8290e6bdaced53980981.png",
     "static/media/mock01.png": "/portoWeb/static/media/mock01.1c78a51a2b387209790c.png",
     "static/media/gcp-engineer.png": "/portoWeb/static/media/gcp-engineer.e7c524600113fc4a6b66.png",
@@ -21,11 +22,11 @@
     "static/media/mock02.png": "/portoWeb/static/media/mock02.f1b243787f65745190a1.png",
     "index.html": "/portoWeb/index.html",
     "main.552a9e8d.css.map": "/portoWeb/static/css/main.552a9e8d.css.map",
-    "main.a7a2701f.js.map": "/portoWeb/static/js/main.a7a2701f.js.map",
+    "main.a97c1322.js.map": "/portoWeb/static/js/main.a97c1322.js.map",
     "453.88662cb8.chunk.js.map": "/portoWeb/static/js/453.88662cb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.552a9e8d.css",
-    "static/js/main.a7a2701f.js"
+    "static/js/main.a97c1322.js"
   ]
 }
