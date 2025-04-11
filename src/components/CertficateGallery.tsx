@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/CertficateGallery.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCertificate, faRibbon } from '@fortawesome/free-solid-svg-icons';
+import { faCertificate, faShieldHalved } from '@fortawesome/free-solid-svg-icons';
 
 import mlGcp from "../assets/images/ml-gcp.png";
 import aiBasic from "../assets/images/ai-basic.png";
@@ -40,7 +40,7 @@ const CertificateGallery = () => {
           </a>
         </div>
       ))}
-      <h2 className="galleryText">&nbsp; <FontAwesomeIcon icon={faRibbon} /> Badge</h2>
+      <h2 className="galleryText">&nbsp; <FontAwesomeIcon icon={faShieldHalved} /> Badge</h2>
       <div className="certificateCard">
           <a href="https://www.cloudskillsboost.google/public_profiles/244341fc-9326-4f0c-b744-87214fc5bd11" target="_blank" rel="noreferrer">
             <img src={gcsb} alt="Certificate" className="certificateImage" />
